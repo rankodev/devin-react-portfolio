@@ -1,0 +1,24 @@
+{
+    "gallery_items": [
+        {
+            "portfolio_id": 42156,
+            "gallery": [
+                "assets/images/image1.png",
+                "assets/images/image1.png",
+                "assets/images/image1.png",
+                "assets/images/image1.png",
+                "assets/images/image1.png"
+            ]
+        },
+        {
+            "portfolio_id": 42162,
+            "gallery": [
+                "assets/images/image1.png",
+                "assets/images/image1.png",
+                "assets/images/image1.png",
+                "assets/images/image1.png",
+                "assets/images/image1.png"
+            ]
+        }
+    ]
+}

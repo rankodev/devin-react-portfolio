@@ -32,6 +32,9 @@
     "url": "https://github.com/bottega-code-school/js-builder/issues"
   },
   "homepage": "https://github.com/bottega-code-school/js-builder",
+  "engines": {
+    "node": "16.18.1"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
@@ -69,6 +72,7 @@
     "react-draft-wysiwyg": "^1.15.0",
     "react-dropzone-component": "^3.2.0",
     "react-html-parser": "^2.0.2",
+    "react-image-gallery": "^1.3.0",
     "react-modal": "^3.16.1",
     "react-redux": "7.2.0",
     "react-router": "5.1.2",

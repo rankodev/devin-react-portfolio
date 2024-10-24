@@ -45,15 +45,23 @@ export default class BlogDetail extends Component {
 
   getBlogItem() {
     axios
-      .get(
-        `https://devinlu.devcamp.space/portfolio/portfolio_blogs/${
-          this.state.currentId
-        }`
-      )
+      // .get(
+      //   `https://devinlu.devcamp.space/portfolio/portfolio_blogs/${
+      //     this.state.currentId
+      //   }`
+      // )
+      .get("/data/blogs.json")
       .then(response => {
-        this.setState({
-          blogItem: response.data.portfolio_blog
-        });
+
+        // const blogsResponse = JSON.parse(response);
+        const blogs = response.data.portfolio_blogs;
+
+        console.log(blogs);
+        const filteredBlogs = blogs.filter(b => b.id === Number(this.state.currentId));
+        if (filteredBlogs.length > 0)
+          this.setState({
+            blogItem: filteredBlogs[0]
+          });
       })
       .catch(error => {
         console.log("getBlogItem error", error);

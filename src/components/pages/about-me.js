@@ -21,17 +21,18 @@ export default function() {
             
           </div>
           <div className="bio">
-          Welcome to my website! My name is <b>Devin "ruru" Lu</b>! <br /><br />I am a 3rd year student at <b>Western Governor's University</b> studying <b>Software Engineering</b> and planning to go into <b>UI/UX</b> afterwards.
-
-          <p>As a web developer and a gamer, my interests very quickly gravitated towards game design, as I found my heart truly loves to create and provide memorable experiences for others. I would love to give back to the gaming world the memorable adventures it has given me. 
-            <br /><br />I think setting up the paths and pieces to reach big moments is what enchants me the most about my favorite video games. I love games that guide the player through fun pacing, well-intentioned dialogue, and connected gameplay elements leading to true grasps of mastery, marvel, or mystique. Some of my favorite games are:<br /><br />
+          Welcome to my website! I'm Devin "ruru" Lu!<br /><br />I am a 3rd year student at <b>Western Governor's University</b> studying <b>Software Engineering</b> and planning to go into <b>UI/UX</b> afterwards. I'm also a hobbyist game developer looking for opportunities to improve and learn. The elements on this website will go into depth on the projects I've worked on so far or experiences with game development.           <p>As a web developer and a competitive gamer, my interests very quickly gravitated towards game design, as I found my heart truly loves to create and provide memorable experiences for others. I would love to give back to the gaming world the memorable adventures it has given me. 
+            <br /><br />I think setting up the paths and pieces to reach big moments for an individual player is what enchants me the most about my favorite video games. I love games that guide the player through fun pacing, well-intentioned dialogue, and/or connected gameplay elements leading to true moments of mastery, marvel, or mystique. <br /><br />Some of my favorite games are:<br />
             </p>
-
             - <i>Ghost Trick</i><br />
             - <i>Stardew Valley</i><br />
             - <i>Final Fantasy Tactics</i><br />
             - <i>Deemo</i><br />
-            - <i>Shin Megami Tensei 4</i><br />
+            - <i>Limbus Company</i><br />
+            - <i>Teamfight Tactics</i><br />
+            - <i>Shin Megami Tensei IV</i><br />
+
+
         </div>
         
           <div className="bullet-point-group">

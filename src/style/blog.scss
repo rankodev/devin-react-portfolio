@@ -19,6 +19,21 @@
     }
   }
 
+  .regular-blog-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      margin-left: 15px;
+      cursor: pointer;
+    }
+
+    .featured-image {
+      margin-bottom: -50px;
+    }
+  }
+
   .new-blog-link {
     position: fixed;
     right: 0;

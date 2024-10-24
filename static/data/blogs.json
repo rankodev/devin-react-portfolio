@@ -1,0 +1,50 @@
+{
+	"portfolio_blogs": [
+		{
+			"id": 2,
+			"title": "Another Game Jam Concluded...",
+			"content": "test",
+			"blog_status": "draft",
+			"featured_image_url": "/assets/images/blogs/placeholder.png",
+			"column_names_merged_with_images": [
+				"id",
+				"title",
+				"content",
+				"blog_status",
+				"featured_image"
+			]
+		},
+		{
+			"id": 1,
+			"title": "A Work in Progress",
+			"content": "<p><strong>The portfolio is currently a work in progress, I built it from scratch with ReactJS and it wounded me, but I learned a ton. Would it be weird to post my portfolio on my portfolio?</strong></p>\r\n<p>There's a few challenges here and there with submitting things at the moment, specifically the way the Portolio Item descriptions look kind of...overwhelming right now. And the items don't like to update or indent.</p>\r\n<p>At least, I was able to post a bit of a Ghosts of Knowledge post-mortem. I've definitely grown out of it, but being my first completed project, the things I learned working on it were invaluable.&nbsp;</p>\r\n<p>Eventually, I need to update the items to be more of a Gallery than a single thumbnail image, and of course, pretty up the rest of the site. I'll try not to overdo the violet/purple/lavender, but I can't promise anything. I think it's really pretty.</p>\r\n",
+			"blog_status": null,
+			"featured_image_url": "/assets/images/blogs/blog1Nope.png",
+			"column_names_merged_with_images": [
+				"id",
+				"title",
+				"content",
+				"blog_status",
+				"featured_image"
+			]
+		},
+		{
+			"id": 0,
+			"title": "We've live! First blog!",
+			"content": "<p><strong>A bit rushed, but we got it done!</strong> This is my slowly, but ever improving portfolio! Currently, as a student, I have simply whatever programming and design things I have completed so far, with only a handful of game projects.</p>\r\n<p><strong>Over time, these will eventually all become just game projects.</strong> I want (and should) post my design documents, my thoughts and ideas on each project, and anything else that feels appropriate for each Portfolio Item.&nbsp;</p>\r\n<p>We've got a long way to go, things are just beginning...!</p>\r\n",
+			"blog_status": null,
+			"featured_image_url": "/assets/images/blogs/blog1Thumb.png",
+			"column_names_merged_with_images": [
+				"id",
+				"title",
+				"content",
+				"blog_status",
+				"featured_image"
+			]
+		}
+	],
+	"meta": {
+		"total_pages": 1,
+		"total_records": 3
+	}
+}

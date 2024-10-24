@@ -4,7 +4,7 @@ import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavigationContainer from "./navigation/navigation-container";
 import Home from "./pages/home";
-import Contact from "./pages/aboutme";
+import About from "./pages/about-me";
 import Blog from "./pages/blog";
 import BlogDetail from "./pages/blog-detail";
 import PortfolioManager from "./pages/portfolio-manager";
@@ -109,7 +109,7 @@ export default class App extends Component {
                   />
                 )}
               />
-              <Route path="/contact" component={Contact} />
+              <Route path="/about-me" component={About} />
 
               <Route
                 path="/blog"

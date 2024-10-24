@@ -6,8 +6,7 @@ import BlogForm from "../blog/blog-form";
 import BlogFeaturedImage from "../blog/blog-featured-image";
 import ImageGallery from "react-image-gallery";
 
-
-export default class PortfolioDetail extends Component {
+export default class PortfolioGallery extends Component {
   constructor(props) {
     super(props);
 
@@ -40,13 +39,13 @@ export default class PortfolioDetail extends Component {
 
   getPortfolioItem() {
     axios
-      .get("/data/portfolios.json")
+      .get("/data/portfolio_gallery.json")
       .then(response => {
 
         const portfolioItems = response.data.portfolio_items;
 
         console.log(this.props.match.params.slug);
-        const filteredPortfolioItems = portfolioItems.filter(b => b.id === Number(this.props.match.params.slug));
+        const filteredPortfolioItems = portfolioItems.filter(b => b.id === Number(this.props.portfolioId));
         if (filteredPortfolioItems.length > 0)
           this.setState({
             portfolioItem: filteredPortfolioItems[0]
@@ -59,7 +58,6 @@ export default class PortfolioDetail extends Component {
 
   render() {
     const {
-      id,
       banner_image_url,
       category,
       description,
@@ -84,10 +82,9 @@ export default class PortfolioDetail extends Component {
       <div className="portfolio-detail-wrapper">
         <div className="portfolio-detail-top">
           <div className="portfolio-detail-left">
-            <div className="featured-image" style={bannerStyles}>
-              <div className="portfolio-gallery">
 
-              </div>
+            <div className="featured-image" style={bannerStyles}>
+              <img src={logo_url} style={logoStyles} />
             </div>
 
             <a href={url} className="site-link" target="_blank">
@@ -115,3 +112,4 @@ export default class PortfolioDetail extends Component {
     );
   }
 }
+

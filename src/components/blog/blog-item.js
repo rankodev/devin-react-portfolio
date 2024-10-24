@@ -13,14 +13,14 @@ const BlogItem = props => {
   } = props.blogItem;
 
   return (
-    <div>
+    <div className="blog-skeleton">
       <div className="featured-image">
         <img src={featured_image_url} width="100px" height="100px" margin="0px"/>
       </div>
       <Link to={`/b/${id}`}>
         <h1>{title}</h1>
       </Link>
-      <div>
+      <div className="blog-content">
         <Truncate
           lines={3}
           ellipsis={

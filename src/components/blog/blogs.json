@@ -1,0 +1,50 @@
+{
+	"portfolio_blogs": [
+		{
+			"id": 31871,
+			"title": "Testing",
+			"content": "tst",
+			"blog_status": "draft",
+			"featured_image_url": "",
+			"column_names_merged_with_images": [
+				"id",
+				"title",
+				"content",
+				"blog_status",
+				"featured_image"
+			]
+		},
+		{
+			"id": 31869,
+			"title": "A Work in Progress",
+			"content": "<p><strong>The portfolio is currently a work in progress, I built it from scratch with ReactJS and it wounded me, but I learned a ton. Would it be weird to post my portfolio on my portfolio?</strong></p>\r\n<p>There's a few challenges here and there with submitting things at the moment, specifically the way the Portolio Item descriptions look kind of...overwhelming right now. And the items don't like to update or indent.</p>\r\n<p>At least, I was able to post a bit of a Ghosts of Knowledge post-mortem. I've definitely grown out of it, but being my first completed project, the things I learned working on it were invaluable.&nbsp;</p>\r\n<p>Eventually, I need to update the items to be more of a Gallery than a single thumbnail image, and of course, pretty up the rest of the site. I'll try not to overdo the violet/purple/lavender, but I can't promise anything. I think it's really pretty.</p>\r\n",
+			"blog_status": null,
+			"featured_image_url": "https://devcamp-space.s3.amazonaws.com/VXxp4xW4Y2iEr1aqDpTFr9hr?response-content-disposition=inline%3B%20filename%3D%22blog1Nope.png%22%3B%20filename%2A%3DUTF-8%27%27blog1Nope.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEHZJNHM5JFESRRQ%2F20240107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240107T235756Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=7e8e89dbe574f8d4d1324ba08de8ba3d4b9853206b91f008d902abb7cadc555f",
+			"column_names_merged_with_images": [
+				"id",
+				"title",
+				"content",
+				"blog_status",
+				"featured_image"
+			]
+		},
+		{
+			"id": 31868,
+			"title": "We've live! First blog!",
+			"content": "<p><strong>A bit rushed, but we got it done!</strong> This is my slowly, but ever improving portfolio! Currently, as a student, I have simply whatever programming and design things I have completed so far, with only a handful of game projects.</p>\r\n<p><strong>Over time, these will eventually all become just game projects.</strong> I want (and should) post my design documents, my thoughts and ideas on each project, and anything else that feels appropriate for each Portfolio Item.&nbsp;</p>\r\n<p>We've got a long way to go, things are just beginning...!</p>\r\n",
+			"blog_status": null,
+			"featured_image_url": "https://devcamp-space.s3.amazonaws.com/NH2RbYpdG7X5Xun9WdbhjM46?response-content-disposition=inline%3B%20filename%3D%22blog1Thumb.png%22%3B%20filename%2A%3DUTF-8%27%27blog1Thumb.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEHZJNHM5JFESRRQ%2F20240107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240107T235756Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=73e5a6bf765e0dc58f7160b7f0fe1ab4852a149931ca211d34ff0cc9ca4f455b",
+			"column_names_merged_with_images": [
+				"id",
+				"title",
+				"content",
+				"blog_status",
+				"featured_image"
+			]
+		}
+	],
+	"meta": {
+		"total_pages": 1,
+		"total_records": 3
+	}
+}
