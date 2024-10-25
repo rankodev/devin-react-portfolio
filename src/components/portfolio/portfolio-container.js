@@ -85,7 +85,7 @@ export default class PortfolioContainer extends Component {
             className="btn"
             onClick={() => this.handleFilter("CLEAR_FILTERS")}
           >
-            Reset Filters
+            All Items
           </button>
         </div>
         <div className="portfolio-items-wrapper">{this.portfolioItems()}</div>

@@ -1,10 +1,11 @@
 .nav-wrapper {
   display: flex;
-  height: 3vh;
+  height: 8vh;
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  background-color: white;
+  background-color: #B695C0;
+  border-bottom: 2px $charcoal solid;
 
   .right-side {
     a {
@@ -20,37 +21,69 @@
   }
 
   .middle-side {
-    font-size: 1.4rem;
-    padding-right: 300px;
+    -webkit-text-stroke: 1px $charcoal;
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto;
+    letter-spacing: 5px;
+    padding-right: 500px;
   }
 
   .left-side {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 40px;
+  }
+
+  .nav-link-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+  }
+
+  .nav-image {
+    height:25%;
+    width: 25%;
   }
 
   .nav-link-wrapper {
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: 0.5s ease-in-out;
-    margin-right: 20px;
-    text-transform: uppercase;
-    font-size: 1.1rem;
+    margin-right: 10px;
+    font-size: 1.2rem;
 
     a {
-      color: $grey;
+      color: black;
+      padding-left: 5px;
+      padding-right: 5px;
+
       text-decoration: none;
       &:hover {
-        color: black;
+        background-color: rgba(255, 255, 255, 0.1);  /* Subtle background color */
+        border-radius: 8px;  /* Adjust the radius for more or less roundness */
+        border-bottom: 4px solid #C9C7F2;
+        transition: all 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+        color: #C9C7F2;
       }
     }
 
     &:hover {
-      border-bottom: 1px solid black;
+
     }
 
     .nav-link-active {
-      border-bottom: 1px solid black;
+      border-bottom: 4px solid black;
       color: black;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);  /* Subtle background color */
+        border-radius: 8px;  /* Adjust the radius for more or less roundness */
+        border-bottom: 4px solid #FFD5E5;
+        transition: all 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+        color: #FFD5E5;
+      }
     }
   }
 }

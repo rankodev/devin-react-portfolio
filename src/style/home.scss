@@ -1,6 +1,7 @@
 .homepage-wrapper {
   display: grid;
   grid-template-columns: 1fr;
+  margin-bottom: -1px;
 
   .filter-links {
     display: flex;

@@ -1,0 +1,29 @@
+.footer-wrapper {
+    display: flex;
+    align-items: right;
+    padding: 30px;
+    background-color: $slateblue;
+    margin-top: auto;
+    
+    .footer-links-container {
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-link-wrapper {
+      height: 22px;
+      border-bottom: 1px solid transparent;
+      transition: 0.5s ease-in-out;
+      margin-right: 20px;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+  
+      a {
+        color: $ghostwhite;
+        text-decoration: none;
+        &:hover {
+          color: $palegreen;
+        }
+      }
+    }
+  }

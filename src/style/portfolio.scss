@@ -1,6 +1,7 @@
 .portfolio-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: px;
 
   .portfolio-item-wrapper {
     position: relative;
@@ -9,7 +10,7 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      height: 350px;
+      height: 351px;
       width: 100%;
     }
 

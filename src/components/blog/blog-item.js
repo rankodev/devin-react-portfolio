@@ -9,6 +9,7 @@ const BlogItem = props => {
     blog_status,
     content,
     title,
+    date,
     featured_image_url
   } = props.blogItem;
 
@@ -20,6 +21,7 @@ const BlogItem = props => {
       <Link to={`/b/${id}`}>
         <h1>{title}</h1>
       </Link>
+      <div className="blog-date"><h1>{date}</h1></div>
       <div className="blog-content">
         <Truncate
           lines={3}

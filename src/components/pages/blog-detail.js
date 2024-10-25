@@ -75,6 +75,7 @@ export default class BlogDetail extends Component {
   render() {
     const {
       title,
+      date,
       content,
       featured_image_url,
       blog_status
@@ -94,7 +95,7 @@ export default class BlogDetail extends Component {
         return (
           <div className="content-container">
             <h1 onClick={this.handleEditClick}>{title}</h1>
-
+            <div className="date">{ReactHtmlParser(date)}</div>
             <BlogFeaturedImage img={featured_image_url} />
 
             <div className="content">{ReactHtmlParser(content)}</div>
