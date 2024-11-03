@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import axios from "axios";
 import BlogItem from "../blog/blog-item";
 import BlogModal from "../modals/blog-modal";
+import { motion } from "framer-motion";
 
 class Blog extends Component {
   constructor() {
@@ -21,9 +22,7 @@ class Blog extends Component {
     window.addEventListener("scroll", this.onScroll, false);
     this.handleNewBlogClick = this.handleNewBlogClick.bind(this);
     this.handleModalClose = this.handleModalClose.bind(this);
-    this.handleSuccessfulNewBlogSubmission = this.handleSuccessfulNewBlogSubmission.bind(
-      this
-    );
+    this.handleSuccessfulNewBlogSubmission = this.handleSuccessfulNewBlogSubmission.bind(this);
     this.handleDeleteClick = this.handleDeleteClick.bind(this);
   }
 
@@ -88,17 +87,7 @@ class Blog extends Component {
     });
 
     axios
-    .get(
-      "/data/blogs.json"
-    )
-      // .get(
-      //   `https://devinlu.devcamp.space/portfolio/portfolio_blogs?page=${
-      //     this.state.currentPage
-      //   }`,
-      //   {
-      //     withCredentials: true
-      //   }
-      // )
+      .get("/data/blogs.json")
       .then(response => {
         this.setState({
           blogItems: this.state.blogItems.concat(response.data.portfolio_blogs),
@@ -120,23 +109,28 @@ class Blog extends Component {
   }
 
   render() {
-    const blogRecords = this.state.blogItems.map(blogItem => {
-        return (
-          <div key={blogItem.id} className="admin-blog-wrapper">
-            <BlogItem blogItem={blogItem} />
-            <a onClick={() => this.handleDeleteClick(blogItem)}>
-              <FontAwesomeIcon icon="trash" />
-            </a>
-          </div>
-        );
+    const blogRecords = this.state.blogItems.map((blogItem, index) => {
+      return (
+        <motion.div
+          key={blogItem.id}
+          className="admin-blog-wrapper"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.5, delay: index * 0.1 }} // Staggered effect
+        >
+          <BlogItem blogItem={blogItem} />
+          <a onClick={() => this.handleDeleteClick(blogItem)}>
+            <FontAwesomeIcon icon="trash" />
+          </a>
+        </motion.div>
+      );
     });
 
     return (
       <div className="blog-container">
         <BlogModal
-          handleSuccessfulNewBlogSubmission={
-            this.handleSuccessfulNewBlogSubmission
-          }
+          handleSuccessfulNewBlogSubmission={this.handleSuccessfulNewBlogSubmission}
           handleModalClose={this.handleModalClose}
           modalIsOpen={this.state.blogModalIsOpen}
         />
@@ -152,9 +146,15 @@ class Blog extends Component {
         <div className="content-container">{blogRecords}</div>
 
         {this.state.isLoading ? (
-          <div className="content-loader">
+          <motion.div
+            className="content-loader"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+          >
             <FontAwesomeIcon icon="spinner" spin />
-          </div>
+          </motion.div>
         ) : null}
       </div>
     );
@@ -162,3 +162,4 @@ class Blog extends Component {
 }
 
 export default Blog;
+

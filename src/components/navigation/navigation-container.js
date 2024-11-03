@@ -3,15 +3,22 @@ import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { withRouter } from "react-router";
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion"
 
-const NavigationComponent = props => {
+const NavigationComponent = (props) => {
   const dynamicLink = (route, linkText) => {
     return (
-      <div className="nav-link-wrapper">
-        <NavLink to={route} activeClassName="nav-link-active">
+      <motion.div
+        initial={{ opacity: 0, y: -20 }} 
+        animate={{ opacity: 1, y: 0 }}    
+        exit={{ opacity: 0, y: -20 }}      
+        transition={{ duration: 0.3 }}      
+        className="nav-link-wrapper"       
+      >
+        <NavLink to={route} activeClassName="nav-link-active" exact>  
           {linkText}
         </NavLink>
-      </div>
+      </motion.div>
     );
   };
 
@@ -33,35 +40,24 @@ const NavigationComponent = props => {
   return (
     <div className="nav-wrapper">
       <div className="left-side">
-      <img src="/assets/images/bio/sitepersona2.png" alt="Description" className="nav-image" />
+        <img src="/assets/images/bio/sitepersona.png" alt="Description" className="nav-image" />
         <div className="nav-link-container">
-          <div className="nav-link-wrapper">
-            <NavLink exact to="/" activeClassName="nav-link-active">
-              Home
-            </NavLink>
-          </div>
-
-          <div className="nav-link-wrapper">
-            <NavLink to="/about-me" activeClassName="nav-link-active">
-              About Me
-            </NavLink>
-          </div>
-
-          <div className="nav-link-wrapper">
-            <NavLink to="/blog" activeClassName="nav-link-active">
-              Blog
-            </NavLink>
-          </div>
-          <div className="nav-link-wrapper">
-            <NavLink to="/resume" activeClassName="nav-link-active">
-              Resume
-            </NavLink>
-          </div>
+          {dynamicLink("/", "Home")}
+          {dynamicLink("/about-me", "About Me")}
+          {dynamicLink("/blog", "Blog")}
+          {dynamicLink("/resume", "Resume")}
         </div>
       </div>
 
       <div className="middle-side">
-        Devin "ruru" Lu
+        <motion.div
+          initial={{ opacity: 0, y: -20 }} 
+          animate={{ opacity: 1, y: 0 }}    
+          exit={{ opacity: 0, y: -20 }}      
+          transition={{ duration: 0.5 }}      
+        >
+          Devin "ruru" Lu
+        </motion.div>
       </div>
 
       <div className="right-side">

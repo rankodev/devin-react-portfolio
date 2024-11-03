@@ -10,7 +10,7 @@ export default class PortfolioForm extends Component {
       name: "",
       blurb: "",
       description: "",
-      category: "Activities",
+      category: "Studio Work",
       position: "",
       url: "",
       thumb_image: "",
@@ -74,7 +74,7 @@ export default class PortfolioForm extends Component {
         name: name || "",
         blurb: blurb || "",
         description: description || "",
-        category: category || "Activities",
+        category: category || "Studio Work",
         position: position || "",
         url: url || "",
         editMode: true,
@@ -169,7 +169,7 @@ export default class PortfolioForm extends Component {
           name: "",
           blurb: "",
           description: "",
-          category: "Activities",
+          category: "Studio Work",
           position: "",
           url: "",
           thumb_image: "",
@@ -236,7 +236,7 @@ export default class PortfolioForm extends Component {
             onChange={this.handleChange}
             className="select-element"
           >
-            <option value="Activities">Activities</option>
+            <option value="Studio Work">Studio Work</option>
             <option value="Game Projects">Game Projects</option>
             <option value="Other">Other</option>
           </select>

@@ -26,7 +26,7 @@
     display: block;
     margin: 0 auto;
     letter-spacing: 5px;
-    padding-right: 500px;
+    padding-right: 510px;
   }
 
   .left-side {
@@ -40,17 +40,16 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 600px;
+    width: 450px;
   }
 
   .nav-image {
-    height:25%;
-    width: 25%;
+    height: 20%;
+    width: 20%;
   }
 
   .nav-link-wrapper {
     height: 22px;
-    border-bottom: 1px solid transparent;
     transition: 0.5s ease-in-out;
     margin-right: 10px;
     font-size: 1.2rem;
@@ -76,7 +75,6 @@
 
     .nav-link-active {
       border-bottom: 4px solid black;
-      color: black;
       &:hover {
         background-color: rgba(255, 255, 255, 0.1);  /* Subtle background color */
         border-radius: 8px;  /* Adjust the radius for more or less roundness */

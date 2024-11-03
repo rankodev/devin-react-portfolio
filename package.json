@@ -62,6 +62,7 @@
     "express": "4.17.1",
     "extract-loader": "^2.0.1",
     "file-loader": "^1.1.11",
+    "framer-motion": "^4.1.17",
     "html-loader": "^0.5.5",
     "html-to-draftjs": "^1.5.0",
     "html-webpack-plugin": "^3.2.0",
@@ -91,6 +92,10 @@
     "webpack-merge": "4.2.2"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-react": "^6.24.1",

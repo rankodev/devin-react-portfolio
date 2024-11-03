@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-
+import { motion, AnimatePresence } from "framer-motion";
 import PortfolioItem from "./portfolio-item";
 
 export default class PortfolioContainer extends Component {
@@ -10,7 +10,8 @@ export default class PortfolioContainer extends Component {
     this.state = {
       pageTitle: "Welcome to my portfolio",
       isLoading: false,
-      data: []
+      data: [],
+      filteredData: []
     };
 
     this.handleFilter = this.handleFilter.bind(this);
@@ -18,77 +19,69 @@ export default class PortfolioContainer extends Component {
 
   handleFilter(filter) {
     if (filter === "CLEAR_FILTERS") {
-      this.getPortfolioItems();
+      this.setState({ filteredData: [] });
     } else {
-      this.getPortfolioItems(filter);
+      this.setState(prevState => ({
+        filteredData: prevState.data.filter(item => item.category === filter)
+      }));
     }
   }
 
-  getPortfolioItems(filter = null) {
+  getPortfolioItems() {
     axios
       .get("/data/portfolios.json")
       .then(response => {
-        if (filter) {
-          this.setState({
-            data: response.data.portfolio_items.filter(item => {
-              return item.category === filter;
-            })
-          });
-        } else {
-          this.setState({
-            data: response.data.portfolio_items
-          });
-        }
+        const portfolioItems = response.data.portfolio_items;
+        this.setState({ data: portfolioItems, filteredData: portfolioItems });
       })
       .catch(error => {
-        console.log(error);
+        console.error("Error fetching portfolio items:", error);
       });
-  }
-
-  portfolioItems() {
-    return this.state.data.map(item => {
-      return <PortfolioItem key={item.id} item={item} />;
-    });
   }
 
   componentDidMount() {
     this.getPortfolioItems();
   }
 
-  render() {
-    if (this.state.isLoading) {
-      return <div>Loading...</div>;
-    }
+  portfolioItems() {
+    const itemsToRender = this.state.filteredData.length > 0 ? this.state.filteredData : this.state.data;
 
+    return itemsToRender.map((item, index) => (
+      <motion.div
+        key={item.id}
+        layout
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.4, delay: index * 0.1 }}
+      >
+        <PortfolioItem item={item} />
+      </motion.div>
+    ));
+  }
+
+  render() {
     return (
       <div className="homepage-wrapper">
         <div className="filter-links">
-          <button
-            className="btn"
-            onClick={() => this.handleFilter("Activities")}
-          >
-            Activities
+          <button className="btn" onClick={() => this.handleFilter("Studio Work")}>
+            Studio Work
           </button>
-          <button
-            className="btn"
-            onClick={() => this.handleFilter("Game Projects")}
-          >
+          <button className="btn" onClick={() => this.handleFilter("Game Projects")}>
             Game Projects
           </button>
-          <button
-            className="btn"
-            onClick={() => this.handleFilter("Other")}
-          >
+          <button className="btn" onClick={() => this.handleFilter("Other")}>
             Other
           </button>
-          <button
-            className="btn"
-            onClick={() => this.handleFilter("CLEAR_FILTERS")}
-          >
+          <button className="btn" onClick={() => this.handleFilter("CLEAR_FILTERS")}>
             All Items
           </button>
         </div>
-        <div className="portfolio-items-wrapper">{this.portfolioItems()}</div>
+        <div className="portfolio-items-wrapper">
+          <AnimatePresence>
+            {this.portfolioItems()}
+          </AnimatePresence>
+        </div>
       </div>
     );
   }
