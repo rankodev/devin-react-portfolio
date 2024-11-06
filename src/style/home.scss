@@ -9,6 +9,9 @@
 
     .btn {
       width: 100%;
+      &:hover {
+        border: solid 1px $charcoal;
+      }
     }
   }
 }

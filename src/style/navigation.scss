@@ -6,6 +6,9 @@
   padding: 30px;
   background-color: #B695C0;
   border-bottom: 2px $charcoal solid;
+  background-image: url(/assets/images/portfolios/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .right-side {
     a {
@@ -21,12 +24,21 @@
   }
 
   .middle-side {
+    
+  }
+
+  .name {
     -webkit-text-stroke: 1px $charcoal;
     font-size: 2rem;
     display: block;
     margin: 0 auto;
     letter-spacing: 5px;
     padding-right: 510px;
+  }
+
+  .title {
+    padding-left: 80px;
+    font-size: 1.2rem;
   }
 
   .left-side {
@@ -41,6 +53,7 @@
     justify-content: space-evenly;
     align-items: center;
     width: 450px;
+    
   }
 
   .nav-image {
@@ -61,11 +74,11 @@
 
       text-decoration: none;
       &:hover {
-        background-color: rgba(255, 255, 255, 0.1);  /* Subtle background color */
-        border-radius: 8px;  /* Adjust the radius for more or less roundness */
-        border-bottom: 4px solid #C9C7F2;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        border-bottom: 4px solid #fde5b3;
         transition: all 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
-        color: #C9C7F2;
+        color: #fde5b3;
       }
     }
 
@@ -78,9 +91,9 @@
       &:hover {
         background-color: rgba(255, 255, 255, 0.1);  /* Subtle background color */
         border-radius: 8px;  /* Adjust the radius for more or less roundness */
-        border-bottom: 4px solid #FFD5E5;
+        border-bottom: 4px solid #fdbeb0;
         transition: all 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
-        color: #FFD5E5;
+        color: #fdbeb0;
       }
     }
   }

@@ -3,6 +3,7 @@ import axios from "axios";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { motion } from "framer-motion";
+import ReactHtmlParser from "react-html-parser";
 
 export default class PortfolioDetail extends Component {
   constructor(props) {
@@ -10,7 +11,7 @@ export default class PortfolioDetail extends Component {
 
     this.state = {
       portfolioItem: {},
-      currentIndex: 0 // Track current image index for bubble indicators
+      currentIndex: 0
     };
 
     this.handleImageChange = this.handleImageChange.bind(this);
@@ -47,6 +48,10 @@ export default class PortfolioDetail extends Component {
       banner_image_url,
       name,
       description,
+      information,
+      platform,
+      devtime,
+      role,
       url
     } = this.state.portfolioItem;
 
@@ -57,7 +62,6 @@ export default class PortfolioDetail extends Component {
         }))
       : [];
 
-    // Custom bubble indicator component
     const CustomBubbleIndicators = ({ items, currentIndex, onClick }) => (
       <div className="bubble-indicators">
         {items.map((_, index) => (
@@ -65,7 +69,7 @@ export default class PortfolioDetail extends Component {
             key={index}
             className={`bubble ${currentIndex === index ? "active" : ""}`}
             onClick={() => {
-              onClick(index); // Update currentIndex and slide to the selected image
+              onClick(index);
               this.galleryRef.slideToIndex(index);
             }}
           />
@@ -83,13 +87,24 @@ export default class PortfolioDetail extends Component {
       >
         <div className="portfolio-detail-top">
           <div className="portfolio-detail-left">
+            <div className="portfolio-item-attributes">
+              <div className="attribute">
+                <b>Platform: </b><i>{platform}</i>
+              </div>
+              <div className="attribute">
+                <b>Dev Time: </b><i>{devtime}</i>
+              </div>
+              <div className="attribute">
+                <b>Role: </b><i>{role}</i>
+              </div>
+            </div>
             <div className="featured-image">
               <ImageGallery
-                ref={(el) => (this.galleryRef = el)} // Set the ref to access slideToIndex
+                ref={(el) => (this.galleryRef = el)}
                 items={galleryImages}
                 onSlide={this.handleImageChange}
                 showThumbnails={false}
-                showPlayButton={false} // Optional: remove play button for cleaner look
+                showPlayButton={false}
                 renderItem={(item) => (
                   <img
                     src={item.original}
@@ -132,10 +147,15 @@ export default class PortfolioDetail extends Component {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.4 }}
                 >
-                  {description}
+                  {ReactHtmlParser(description)}
                 </motion.div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="portfolio-detail-bottom">
+          <div className="information">
+            {information}
           </div>
         </div>
       </motion.div>

@@ -142,9 +142,11 @@ class Blog extends Component {
             </a>
           </div>
         ) : null}
-
-        <div className="content-container">{blogRecords}</div>
-
+        <div className="blog-page">
+          <div className="border-left"></div>
+          <div className="content-container">{blogRecords}</div>
+          <div className="border-right"></div>
+        </div>
         {this.state.isLoading ? (
           <motion.div
             className="content-loader"

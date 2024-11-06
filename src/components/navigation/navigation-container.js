@@ -56,7 +56,12 @@ const NavigationComponent = (props) => {
           exit={{ opacity: 0, y: -20 }}      
           transition={{ duration: 0.5 }}      
         >
-          Devin "ruru" Lu
+          <div className="name">
+            Devin "ruru" Lu
+          </div>
+          <div className="title">
+            Game Designer
+          </div>
         </motion.div>
       </div>
 
