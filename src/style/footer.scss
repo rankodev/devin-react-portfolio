@@ -18,7 +18,7 @@ html, body {
   align-items: flex-end;
   justify-content: center;
   padding: 30px;
-  background-color: $slateblue;
+  background-color: #e1c1ff;
   min-height: 5vh;
 }
 
@@ -37,10 +37,11 @@ html, body {
   font-size: 1.1rem;
 
   a {
-    color: $ghostwhite;
+    color: #4a2a69 ;
     text-decoration: none;
     &:hover {
-      color: $palegreen;
+      color: #f9d3f3;
+      transition: 0.5s ease-in-out;
     }
   }
 }

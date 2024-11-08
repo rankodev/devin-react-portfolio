@@ -41,21 +41,16 @@ const FooterComponent = (props) => {
       <div className="footer-links-container">
         <div className="footer-link-wrapper">
           <NavLink exact to="/" activeClassName="footer-link-active">
-            Home
+            BlueSky
           </NavLink>
         </div>
 
         <div className="footer-link-wrapper">
           <NavLink to="/about-me" activeClassName="footer-link-active">
-            About Me
+            Contact
           </NavLink>
         </div>
 
-        <div className="footer-link-wrapper">
-          <NavLink to="/blog" activeClassName="footer-link-active">
-            Blog
-          </NavLink>
-        </div>
       </div>
     </motion.div>
   );

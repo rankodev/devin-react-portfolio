@@ -6,32 +6,27 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* Tablet breakpoint */
 @media (max-width: 768px) {
   body {
-    background-size: contain; /* Adjusts image fit for tablet view */
+    background-size: cover;
+    background-position: center top;
   }
   .container {
-    grid-template-columns: 1fr; /* Keeps a single-column layout */
-    height: auto;
-    padding: 20px; /* Adds padding for better layout on smaller screens */
+    padding: 20px;
   }
 }
 
-/* Mobile breakpoint */
+
 @media (max-width: 480px) {
   body {
-    background-position: top; /* Adjusts background position for portrait mode */
+    background-size: cover;
+    background-position: center top;
   }
   .container {
-    padding: 10px; /* Reduces padding to save space */
+    padding: 10px;
   }
 }

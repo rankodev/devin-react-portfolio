@@ -53,7 +53,8 @@
             "banner_image_url": [
                 "/assets/images/gallery/bloodlines1.gif",
                 "/assets/images/gallery/bloodlines2.gif",
-                "/assets/images/gallery/bloodlines3.gif"
+                "/assets/images/gallery/bloodlines3.gif",
+                "/assets/images/gallery/bloodlines4.png"
             ],
             "logo_url": null,
             "column_names_merged_with_images": [
@@ -75,7 +76,7 @@
         {
             "id": 2,
             "name": "A Star in the Desert",
-            "description": "A top-down exploration game primarily created for a 3-week Game Jam. This game is a tribute to the Pokémon Mystery Dungeon series. Page in progress!",
+            "description": "A top-down exploration game primarily created for a 3-week Game Jam. This game is a tribute to the Pokémon Mystery Dungeon series.<br/><br/>Waking up dragged along in the desert with no memories as to how you got here, you soon find yourself tagging along with a timid, but well meaning, Sobble to take down various outlaws that this rough region has to offer. Perhaps you'll be able to find the answer as to why you've become a Pokémon, but more important problems exist...",
             "information": "Test",
             "platform": "PC",
             "devtime": "1 month (Game Jam)",

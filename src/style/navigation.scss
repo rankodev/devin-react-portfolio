@@ -39,11 +39,29 @@
       letter-spacing: 5px;
       color: black;
       -webkit-text-stroke: 1px $charcoal;
+
+      @media (max-width: 768px) {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+      }
+
+      @media (max-width: 480px) {
+        width: 200px;
+        font-size: 1.0rem;
+        letter-spacing: 2px;
+      }
     }
 
     .title {
-      font-size: 1.2rem;
-      text-align: center;
+      font-size: 1.0rem;
+
+      @media (max-width: 768px) {
+        font-size: 1rem;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 0.9rem;
+      }
     }
   }
 
@@ -77,14 +95,13 @@
     }
   }
 
-  /* Responsive styling */
   @media (max-width: 768px) {
     .left-side .hamburger-menu {
-      display: block; /* Show the hamburger icon on smaller screens */
+      display: block;
     }
 
     .nav-link-container {
-      display: none; /* Hide the nav links on mobile */
+      display: none;
       flex-direction: column;
       position: fixed;
       top: 8vh;
@@ -99,7 +116,7 @@
       }
 
       .nav-link-wrapper {
-        margin-bottom: 10px; /* Spacing between each link */
+        margin-bottom: 10px;
         width: 100%;
 
         a {
