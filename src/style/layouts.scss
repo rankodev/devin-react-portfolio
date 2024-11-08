@@ -44,10 +44,6 @@ html, body {
   align-items: center;
 }
 
-.contact {
-  margin-right: 80px;
-}
-
 .contact-bullet-points {
   display: grid;
   grid-template-columns: 1fr;
@@ -100,6 +96,10 @@ html, body {
     .text {
       font-size: 1.2em; /* Smaller text on tablet */
     }
+
+    .contact {
+      margin-right: 0px;
+    } 
   }
 }
 
@@ -126,5 +126,9 @@ html, body {
     .text {
       font-size: 1em; /* Smaller text for mobile devices */
     }
+
+    .contact {
+      margin-right: 0px;
+    } 
   }
 }

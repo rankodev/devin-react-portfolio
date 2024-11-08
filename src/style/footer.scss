@@ -10,7 +10,8 @@ html, body {
 }
 
 .content-container {
-  flex-grow: 1; /* Ensures content section takes available space */
+  flex-grow: 1;
+  padding-bottom: 5vh; // Adds space above the footer
 }
 
 .footer-wrapper {
@@ -20,6 +21,9 @@ html, body {
   padding: 30px;
   background-color: #e1c1ff;
   min-height: 5vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-links-container {
@@ -37,7 +41,7 @@ html, body {
   font-size: 1.1rem;
 
   a {
-    color: #4a2a69 ;
+    color: #4a2a69;
     text-decoration: none;
     &:hover {
       color: #f9d3f3;
@@ -46,12 +50,12 @@ html, body {
   }
 }
 
-/* Tablet breakpoint */
 @media (max-width: 768px) {
   .footer-wrapper {
     flex-direction: column;
-    align-items: center; /* Center-aligns footer links on tablet */
+    align-items: center;
     padding: 20px;
+    position: static; // Non-fixed footer on smaller screens
   }
 
   .footer-links-container {
@@ -64,7 +68,6 @@ html, body {
   }
 }
 
-/* Mobile breakpoint */
 @media (max-width: 480px) {
   .footer-wrapper {
     padding: 15px;
@@ -72,7 +75,7 @@ html, body {
 
   .footer-links-container {
     width: 90vw;
-    flex-direction: column; /* Stacks links vertically on mobile */
+    flex-direction: column;
     align-items: center;
   }
 

@@ -33,7 +33,7 @@ const FooterComponent = (props) => {
 
   return (
     <motion.div
-      className="footer-wrapper"
+      className="footer-wrapper" 
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
