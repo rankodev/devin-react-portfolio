@@ -3,8 +3,10 @@
         {
             "id": 0,
             "name": "Ghosts of Knowledge",          
-            "description": "An RPG developed for a 1-month Game Jam competition inspired by the Metroidvania genre and Pokémon. You play as Dust, an explorer who stumbles upon an underwater cave and the remains of a world hidden beneath the surface. Unlock paths, solve puzzles, battle, and snag some relics wherever you see them!\n\n<strong>Community Spotlight winner for the 6th Relic Castle Game Jam!</strong>\n\nResponsibilities:\n\n\u2022 Basic gameplay loop and map design, as well as playtesting\n\u2022 The entirety of the dialogue, narrative, and eventing\n\u2022 Spritework, tileset organization, art direction, and asset creation/crediting\n\u2022 Sculpting the vision of the final project, creating documentation, and splitting/assigning needed tasks to team members\n\u2022 Checking minimum viable product values, assess the game's pacing, and implementing/discarding features as time permits",
-            "information": "This was developed within a French Monster Collecting engine known as PSDK, which utilized Ruby, a little bit of C++, and a graphic engine they developed themselves called LiteRGSS.\r\n\r\n The competition this project was developed for always has a theme and contestants were asked to develop a Pokémon RPG with whatever engine of choice. I decided I'd go for something that would be easier to split in a few weeks, rather than a dedicated gym challenge seen in regular Pokémon games, so this has a fully original story. \r\n\r\nWorking in a team as 4 as the lead developer, I was responsible for:\r\n\r\n- Coming up with the story/gameplay loop. This includes writing all of the dialogue. I split the game into three areas, with 5 hidden \"treasures\" within each. You found these just walking around and exploring the overworld. Collecting them at intervals gave the players various rewards that would help them in battle. They also publicly display at the player's base with fun flavor text. There are also a lot of optional treasures that can still be traded in, but would give a strong random award. Wild Pokémon drop these at a small chance (10%).\r\n\r\n- Figuring out how many mechanics we could feasibly import into this game. Turns out, Pokémon has a lot of mechanics, and a lot of conditional ones too. The first thing I did was add just a few moves, and curate fights to make sure the moves that did exist flowed into the gameplay well. Lots of playtesting was in order to check the overall game balance, prioritizing fast fights with very few gauntlets in order to get the player back to the overworld as much as possible, since the focus is on exploring.\r\n\r\n- The general game setting and art direction. A ton of the art in this project was either edited and credited public resources or completely sprited from scratch. The biggest outlier was the Pokémon sprites themselves.\r\n\r\n- Bringing everyone's contributions together and having the game in a playable and releasable state. The puzzles, map design, and art I had assistance in, but it was on me to make sure that they all make it in the game and works well. \r\n\r\nThis marks my first planned game project that was actually able to make the finish line.\r\n\r\n",
+            
+                "description": "An RPG developed for a 1-month Game Jam competition inspired by the Metroidvania genre and Pokémon. You play as Dust, an explorer who stumbles upon an underwater cave and the remains of a world hidden beneath the surface. Unlock paths, solve puzzles, battle, and snag some relics wherever you see them!<br/><br/><strong>Winner for the 6th Relic Castle Game Jam!</strong><br/><br/><span style=\"font-size: 16px;\"><strong>Responsibilities:</strong></span><br/><br/><ul style=\"margin-top: 0;\"><li>Documenting basic gameplay loop ideas and map design to keep the team organized</li><li>Collaborated with team members for puzzle design (a prominent recurring mechanic), testing and iterating on puzzles for the best possible player experience</li><li>Spritework, tileset organization, art direction, and asset creation/crediting</li><li>Sculpting the vision of the final project, and splitting/assigning needed tasks to team members</li><li>Checking minimum viable product values, assessing the game's pacing, and implementing/discarding features as time permits</li><li>Wrestling with the engine limits, possibilities, and identifying the less polished areas, as we were using a relatively new engine</li></ul>"
+              ,
+            "information": "This was developed within a French Monster Collecting engine known as PSDK, which utilized Ruby, a little bit of C++, and a graphic engine they developed themselves called LiteRGSS.\r\n\r\n The competition this project was developed for always has a theme and contestants were asked to develop a Pokémon RPG with whatever engine of choice. I decided I'd go for something that would be easier to split in a few weeks, rather than a dedicated gym challenge seen in regular Pokémon games, so this has a fully original story. \r\n\r\nWorking in a team as 4 as the lead developer, I was responsible for:\r\n\r\n- Coming up with the story/gameplay loop. This includes writing all of the dialogue. I split the game into three areas, with 5 hidden \"treasures\" within each. You found these just walking around and exploring the overworld. Collecting them at intervals gave the players various rewards that would help them in battle. They also publicly display at the player's base with fun flavor text. There are also a lot of optional treasures that can still be traded in, but would give a strong random award. Wild Pokémon drop these at a small chance (10%).",
             "platform": "PC",
             "devtime": "1 month (Game Jam)",
             "role": "Project Lead (4 Devs)",
@@ -16,7 +18,8 @@
                 "/assets/images/gallery/ghosts1.gif",
                 "/assets/images/gallery/ghosts4.gif",
                 "/assets/images/gallery/ghosts3.gif",
-                "/assets/images/gallery/ghosts2.gif"
+                "/assets/images/gallery/ghosts2.gif",
+                "/assets/images/gallery/ghosts5.png"
             ],
             "logo_url": null,
             "column_names_merged_with_images": [
@@ -48,9 +51,9 @@
             "position": 2,
             "thumb_image_url": "/assets/images/portfolios/bloodlines.png",
             "banner_image_url": [
-                "/assets/images/gallery/ghosts.png",
-                "/assets/images/gallery/expo.png",
-                "/assets/images/gallery/bloodlines.png"
+                "/assets/images/gallery/bloodlines1.gif",
+                "/assets/images/gallery/bloodlines2.gif",
+                "/assets/images/gallery/bloodlines3.gif"
             ],
             "logo_url": null,
             "column_names_merged_with_images": [
@@ -72,7 +75,7 @@
         {
             "id": 2,
             "name": "A Star in the Desert",
-            "description": "A top-down exploration game primarily created for a 3-week Game Jam. This game is a tribute to the Pokémon Mystery Dungeon series.",
+            "description": "A top-down exploration game primarily created for a 3-week Game Jam. This game is a tribute to the Pokémon Mystery Dungeon series. Page in progress!",
             "information": "Test",
             "platform": "PC",
             "devtime": "1 month (Game Jam)",
@@ -82,9 +85,12 @@
             "position": 3,
             "thumb_image_url": "/assets/images/portfolios/stars.png",
             "banner_image_url": [
-                "/assets/images/gallery/stars.png",
-                "/assets/images/gallery/expo.png",
-                "/assets/images/gallery/bloodlines.png"
+                "/assets/images/gallery/star1.gif",
+                "/assets/images/gallery/star2.gif",
+                "/assets/images/gallery/star3.gif",
+                "/assets/images/gallery/star4.gif",
+                "/assets/images/gallery/star5.gif",
+                "/assets/images/gallery/star6.gif"
             ],
             "logo_url": null,
             "column_names_merged_with_images": [
@@ -106,18 +112,19 @@
         {
             "id": 3,
             "name": "Eevee Expo",
-            "description": "Eevee Expo is an indie games website dedicated to showcasing thousands of indie games, fanworks, and other creative endeavors.",
+            "description": "Eevee Expo is an indie games website dedicated to showcasing thousands of indie games, fanworks, and other creative endeavors. Page in progress!",
             "information":"Test",
-            "platform": "PC",
-            "devtime": "1 month (Game Jam)",
+            "platform": "N/A",
+            "devtime": "On-going!",
             "role": "Project Lead",
             "url": "https://eeveeexpo.com/",
             "category": "Other",
             "position": 3,
             "thumb_image_url": "/assets/images/portfolios/expo.png",
             "banner_image_url": [
-                "/assets/images/gallery/expo.png",
-                "/assets/images/gallery/bloodlines.png"
+                "/assets/images/gallery/expo.gif",
+                "/assets/images/gallery/expo2.png",
+                "/assets/images/gallery/expo3.png"
             ],
             "logo_url": null,
             "column_names_merged_with_images": [

@@ -154,9 +154,14 @@ export default class PortfolioDetail extends Component {
           </div>
         </div>
         <div className="portfolio-detail-bottom">
-          <div className="information">
-            {information}
-          </div>
+          <motion.div
+            className="information"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
+            {ReactHtmlParser(information)}
+            </motion.div>
         </div>
       </motion.div>
     );

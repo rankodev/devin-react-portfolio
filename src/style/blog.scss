@@ -9,37 +9,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
 
-  .border-left {
-
-  }
-
+  .border-left,
   .border-right {
-
+    /* Styles for the borders (if needed) */
   }
 
-  .admin-blog-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    a {
-      margin-left: 15px;
-      cursor: pointer;
-    }
-
-    .featured-image {
-      margin-bottom: -50px;
-    }
-  }
-
+  .admin-blog-wrapper,
   .regular-blog-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    flex-direction: column; /* Stack elements on smaller screens */
 
     a {
       margin-left: 15px;
@@ -74,13 +56,14 @@
     display: flex;
     flex-direction: column;
     width: 800px;
+    max-width: 90%; /* Ensures it doesn’t exceed screen width on small screens */
     margin-top: 50px;
 
     .admin-blog-wrapper {
       border: solid 2px transparent;
       background-color: whitesmoke;
       border-radius: 1.3em;
-      box-shadow: 0px 5px 15px rgba(0, 0, 0, .2);
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
       padding: 10px;
       margin: 15px;
     }
@@ -89,9 +72,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
       img {
         width: 250px;
         height: 250px;
+        max-width: 100%; /* Makes images responsive */
       }
     }
 
@@ -107,6 +92,42 @@
 
     h1 {
       font-size: 1.5em;
+    }
+  }
+}
+
+/* Tablet breakpoint */
+@media (max-width: 768px) {
+  .blog-container {
+    .content-container {
+      width: 90%; /* Adjusts container width for tablet */
+    }
+
+    .new-blog-link a {
+      font-size: 2.5em; /* Scales down link size */
+    }
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 480px) {
+  .blog-container {
+    margin-bottom: 30px; /* Reduces bottom margin for mobile */
+
+    .admin-blog-wrapper,
+    .regular-blog-wrapper {
+      flex-direction: column; /* Stacks elements vertically */
+      align-items: flex-start; /* Aligns items for better readability */
+    }
+
+    .new-blog-link a {
+      font-size: 2em; /* Adjusts font size for mobile */
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .content-container {
+      width: 95%; /* Uses nearly full screen width on mobile */
     }
   }
 }

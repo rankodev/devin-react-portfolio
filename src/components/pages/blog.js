@@ -120,9 +120,6 @@ class Blog extends Component {
           transition={{ duration: 0.5, delay: index * 0.1 }} // Staggered effect
         >
           <BlogItem blogItem={blogItem} />
-          <a onClick={() => this.handleDeleteClick(blogItem)}>
-            <FontAwesomeIcon icon="trash" />
-          </a>
         </motion.div>
       );
     });

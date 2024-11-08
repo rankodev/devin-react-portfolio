@@ -1,24 +1,26 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import contactPagePicture from "../../../static/assets/images/auth/login.jpg";
+import contactPagePicture from "../../../static/assets/images/auth/ruru.png";
 import { motion } from "framer-motion";
 
 const ContactPage = () => {
   return (
     <div className="content-page-wrapper">
+      <div className="left-column">
       <motion.div
-        className="left-column"
+        className="ruru-pic"
         style={{
           background: `url(${contactPagePicture}) no-repeat`,
-          backgroundSize: "cover",
           backgroundPosition: "center",
-          height: '100vh'
+          backgroundColor: "rgb(242, 239, 168)"
         }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 2 }}
       />
+      </div>
+
 
       <div className="right-column">
         <div className="contact-bullet-points">
@@ -35,7 +37,7 @@ const ContactPage = () => {
               exit={{ opacity: 0, y: -20 }} 
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Welcome to my website! I'm Devin "ruru" Lu!<br /><br />
+              Welcome to my portfolio! I'm Devin "ruru" Lu!<br /><br />
               I am a 3rd year student at <b>Western Governor's University</b> studying <b>Software Engineering</b> and planning to go into <b>UI/UX</b> afterwards. Not only am I one of the main organizers of <b>the indie game website, Eevee Expo</b>, I'm also a hobbyist game developer looking for opportunities to improve and learn. The elements on this website will go into depth on the projects I've worked on so far, as well as my experience with game development. 
             </motion.p>
 

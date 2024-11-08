@@ -1,12 +1,37 @@
 body {
-  margin: 0px;
+  margin: 0;
   font-family: "Titillium Web", sans-serif;
-  //background-color: $smoke;
   background-image: url(/assets/images/portfolios/background2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr;
   height: 100vh;
+}
+
+/* Tablet breakpoint */
+@media (max-width: 768px) {
+  body {
+    background-size: contain; /* Adjusts image fit for tablet view */
+  }
+  .container {
+    grid-template-columns: 1fr; /* Keeps a single-column layout */
+    height: auto;
+    padding: 20px; /* Adds padding for better layout on smaller screens */
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 480px) {
+  body {
+    background-position: top; /* Adjusts background position for portrait mode */
+  }
+  .container {
+    padding: 10px; /* Reduces padding to save space */
+  }
 }
