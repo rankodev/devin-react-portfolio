@@ -41,8 +41,8 @@
         {
             "id": 1,
             "name": "Bloodlines",
-            "description": "A top-down exploration game primarily created for a 3-week Game Jam. In a snow-filled province of the Ede region, a fateful letter and a twist of fate sends off a young lady and a wrathful creature on a cold journey.\r\n\r\nUI/UX Figma: https://www.figma.com/file/Q10iUfnJiEsdVBtEa6Gp9e/Bloodlines-UI?type=design\u0026node-id=0%3A1\u0026mode=design\u0026t=cHtIAgi1kqyx2pcx-1\r\n\r\nHost Link has more details (sorry still working on the site to go in-depth development wise...)",
-            "information":"Test",
+            "description": "A top-down exploration game primarily created for a 3-week Game Jam. In a snow-filled province of the Ede region, a fateful letter and a twist of fate sends off a young lady and a wrathful creature on a cold journey.\r\n\r\n",
+            "information":"Extra Info in progress",
             "platform": "PC",
             "devtime": "1 month (Game Jam)",
             "role": "Project Lead",
@@ -76,8 +76,8 @@
         {
             "id": 2,
             "name": "A Star in the Desert",
-            "description": "A top-down exploration game primarily created for a 3-week Game Jam. This game is a tribute to the Pokémon Mystery Dungeon series.<br/><br/>Waking up dragged along in the desert with no memories as to how you got here, you soon find yourself tagging along with a timid, but well meaning, Sobble to take down various outlaws that this rough region has to offer. Perhaps you'll be able to find the answer as to why you've become a Pokémon, but more important problems exist...",
-            "information": "Test",
+            "description": "A top-down exploration game primarily created for a 3-week Game Jam. This game is a tribute to the Pokémon Mystery Dungeon series.<br/><br/>Waking up dragged along in the desert with no memories as to how you got here, you soon find yourself tagging along with a timid, but well meaning, Sobble to take down various outlaws that this rough region has to offer. Perhaps you'll be able to find the answer as to why you've become a Pokémon, but more important problems exist...<br/><br/><strong>Winner for the Eevee Expo Game Jam 2024!</strong><br/><br/>",
+            "information": "Extra Info in progress",
             "platform": "PC",
             "devtime": "1 month (Game Jam)",
             "role": "Project Lead",
