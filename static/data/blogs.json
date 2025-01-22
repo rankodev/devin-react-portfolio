@@ -1,12 +1,27 @@
 {
 	"portfolio_blogs": [
 		{
+			"id": 4,
+			"title": "Maplemon and the MapleJam 2024 Hackathon",
+			"date": "12-8-2024",
+			"content": "<p>I've barely lived to tell the tale, but another Game Jam project has been out and published. Updating blog soon...</p>",
+			"blog_status": "null",
+			"featured_image_url": "/assets/images/blogs/blog1Slime.png",
+			"column_names_merged_with_images": [
+				"id",
+				"title",
+				"content",
+				"blog_status",
+				"featured_image"
+			]
+		},
+		{
 			"id": 3,
 			"title": "Eevee Expo Launch and Fleeting Thoughts",
 			"date": "10-25-2024",
-			"content": "<p>Eevee Expo launched! Remember that? Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text.</p>",
+			"content": "<p>Eevee Expo launched! Remember that? The website marks a huge step in my committment to spreading the joys of the things I love to as many peopl as possible. Updating blog soon...</p>",
 			"blog_status": "null",
-			"featured_image_url": "/assets/images/blogs/placeholder.png",
+			"featured_image_url": "/assets/images/blogs/blog1Eevee.png",
 			"column_names_merged_with_images": [
 				"id",
 				"title",
@@ -19,9 +34,9 @@
 			"id": 2,
 			"title": "Game Jam Conclusion, Crunch, and Winning(?)",
 			"date": "10-21-2024",
-			"content": "<p><strong>I just finished another Game Jam project!</strong> However, this one was the most challenging and toughest one yet, and required time management more than anything else this time. Let's talk about the wild ride that was the <strong>Eevee Expo Game Jam 2024</strong>!</p>\r\n<p>My usual approach is polish and precision. I personally believe that if I releae anything into the wild, it should devoid of as many immersion-breaking bugs, errors, typos, and the like as possible. Of course, I try my best to apply it to Game Jam projects. After all, who wants to play a good-looking Game Jam game that isn't even playable due to softlocks?</p><p>Around a week left in the jam, the rest of my team got extremely busy with IRL matters. We were about, 60% through the scope I'd planned for the project, but I was <i>very</i> determined to at least end the project with a valid conclusion (I disliked the idea of ending the project on a cliffhanger or abruptly in the middle of an in-game event).</p><p>I would then proceed to perform a 'crunch'. I stayed awake at nights and maximized the amount of time working on the game in order to bring the game into completion, not completely proud of what I was doing, but doing it because of my personal convictions. My team did very much speak out against my decision, but again, I just really disliked the idea of the player leaving the game on an incomplete note. In return, I would take the blame for anything that would happen past the point we were at, I wouldn't dare ask any of them for help for my decision (not that they could).</p> By the time the Jam ended, I had just barely reached the intended ending and submitted the game for judging.",
+			"content": "<p><strong>I just finished another Game Jam project!</strong> However, this one was the most challenging and toughest one yet, and required time management more than anything else this time. Let's talk about the wild ride that was the <strong>Eevee Expo Game Jam 2024</strong>!</p>\r\n<p>My usual approach is polish and precision. I personally believe that if I release anything into the wild, it should devoid of as many immersion-breaking bugs, errors, typos, and the like as possible. Of course, I try my best to apply it to Game Jam projects. After all, who wants to play a good-looking Game Jam game that isn't even playable due to softlocks?</p><p>Around a week left in the jam, the rest of my team got extremely busy with IRL matters. We were about, 60% through the scope I'd planned for the project, but I was <i>very</i> determined to at least end the project with a valid conclusion (I disliked the idea of ending the project on a cliffhanger or abruptly in the middle of an in-game event).</p><p>I would then proceed to perform a 'crunch'. I stayed awake at nights and maximized the amount of time working on the game in order to bring the game into completion, not completely proud of what I was doing, but doing it because of my personal convictions. My team did very much speak out against my decision, but again, I just really disliked the idea of the player leaving the game on an incomplete note. In return, I would take the blame for anything that would happen past the point we were at, I wouldn't dare ask any of them for help for my decision (not that they could).</p> By the time the Jam ended, I had just barely reached the intended ending and submitted the game for judging. Although it wounded me, we ended up actually winning the competition, which I don't believe we would've made it without that crunch. It made my efforts feel really needed in a way, but honestly, I think better time management is probably the better play next time.",
 			"blog_status": "null",
-			"featured_image_url": "/assets/images/blogs/placeholder.png",
+			"featured_image_url": "/assets/images/blogs/blog1Crunch.png",
 			"column_names_merged_with_images": [
 				"id",
 				"title",

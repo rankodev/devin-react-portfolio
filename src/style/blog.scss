@@ -11,9 +11,12 @@
     align-items: center;
   }
 
+  .content {
+    padding-bottom: 30px;
+  }
+
   .border-left,
   .border-right {
-    /* Styles for the borders (if needed) */
   }
 
   .admin-blog-wrapper,
@@ -21,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column; /* Stack elements on smaller screens */
+    flex-direction: column;
 
     a {
       margin-left: 15px;

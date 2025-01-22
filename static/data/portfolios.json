@@ -1,18 +1,55 @@
 {
     "portfolio_items": [
         {
+            "id": 5,
+            "name": "Maplemon",
+            "description": "Maplemon is a monster-catching/platformer hybrid RPG created for MapleJam 2024 ($10,000 prize pool). The Hackathon required the use of the Maplestory Worlds platform, and Maplestory assets were provided. This game project features prominently the ability to catch, battle, and explore with iconic monsters from Maplestory. \r\n\r\nYou play as a Maplestory player that has fallen from the surface world, and are told that the monsters in this New World cannot be harmed with your traditional weapons. You must ally yourselves with the monsters in order to survive. <br/><br/><strong>Winner for MapleJam 2024!</strong><br/><br/><span style=\"font-size: 16px;\"><strong>Responsibilities:</strong></span><br/><br/><ul style=\"margin-top: 0;\"><li>Lead UI/UX Designer</li><li>Framing and building Game Design Documentat and UI Design Page</li><li>Designing core gameplay loop and systems, including flowcharts</li><li>Spritework, tileset organization, art direction, and asset creation/crediting</li><li>Recruitment and task management</li><li>Managing scope, engine limitations, possibilities, and deadlines</li></ul>",
+            "information":"Coming soon!",
+            "platform": "PC+Mobile",
+            "devtime": "1 month -> On-going!",
+            "role": "Project Lead",
+            "url": "https://maplestoryworlds.nexon.com/play/1ba292fc16a14cf78dfc288d36546f6f",
+            "category": "Game Projects",
+            "position": 1,
+            "thumb_image_url": "/assets/images/portfolios/maples.png",
+            "banner_image_url": [
+                "/assets/images/gallery/maples2.gif",
+                "/assets/images/gallery/maples1.gif",
+                "/assets/images/gallery/maples3.gif",
+                "/assets/images/gallery/maples4.gif",
+                "/assets/images/gallery/maples5.png",
+                "/assets/images/gallery/maples6.png"
+            ],
+            "logo_url": null,
+            "column_names_merged_with_images": [
+                "id",
+                "name",
+                "description",
+                "information",
+                "platform",
+                "devtime",
+                "role",
+                "url",
+                "category",
+                "position",
+                "thumb_image",
+                "banner_image",
+                "logo"
+            ]
+        },
+        {
             "id": 0,
             "name": "Ghosts of Knowledge",          
             
                 "description": "An RPG developed for a 1-month Game Jam competition inspired by the Metroidvania genre and Pokémon. You play as Dust, an explorer who stumbles upon an underwater cave and the remains of a world hidden beneath the surface. Unlock paths, solve puzzles, battle, and snag some relics wherever you see them!<br/><br/><strong>Winner for the 6th Relic Castle Game Jam!</strong><br/><br/><span style=\"font-size: 16px;\"><strong>Responsibilities:</strong></span><br/><br/><ul style=\"margin-top: 0;\"><li>Documenting basic gameplay loop ideas and map design to keep the team organized</li><li>Collaborated with team members for puzzle design (a prominent recurring mechanic), testing and iterating on puzzles for the best possible player experience</li><li>Spritework, tileset organization, art direction, and asset creation/crediting</li><li>Sculpting the vision of the final project, and splitting/assigning needed tasks to team members</li><li>Checking minimum viable product values, assessing the game's pacing, and implementing/discarding features as time permits</li><li>Wrestling with the engine limits, possibilities, and identifying the less polished areas, as we were using a relatively new engine</li></ul>"
               ,
-            "information": "This was developed within a French Monster Collecting engine known as PSDK, which utilized Ruby, a little bit of C++, and a graphic engine they developed themselves called LiteRGSS.\r\n\r\n The competition this project was developed for always has a theme and contestants were asked to develop a Pokémon RPG with whatever engine of choice. I decided I'd go for something that would be easier to split in a few weeks, rather than a dedicated gym challenge seen in regular Pokémon games, so this has a fully original story. \r\n\r\nWorking in a team as 4 as the lead developer, I was responsible for:\r\n\r\n- Coming up with the story/gameplay loop. This includes writing all of the dialogue. I split the game into three areas, with 5 hidden \"treasures\" within each. You found these just walking around and exploring the overworld. Collecting them at intervals gave the players various rewards that would help them in battle. They also publicly display at the player's base with fun flavor text. There are also a lot of optional treasures that can still be traded in, but would give a strong random award. Wild Pokémon drop these at a small chance (10%).",
+            "information": "This was developed within a French Monster Collecting engine known as PSDK, which utilized Ruby, a little bit of C++, and a graphic engine they developed themselves called LiteRGSS.\r\n\r\n <br/><br/>The competition this project was developed for always has a theme and contestants were asked to develop a Pokémon RPG with whatever engine of choice. I decided I'd go for something that would be easier to split in a few weeks, rather than a dedicated gym challenge seen in regular Pokémon games, so this has a fully original story.",
             "platform": "PC",
             "devtime": "1 month (Game Jam)",
             "role": "Project Lead (4 Devs)",
             "url": "https://eeveeexpo.com/ghosts-of-knowledge/",
             "category": "Game Projects",
-            "position": -1,
+            "position": 2,
             "thumb_image_url": "/assets/images/portfolios/ghosts.png",
             "banner_image_url": [
                 "/assets/images/gallery/ghosts1.gif",
@@ -48,7 +85,7 @@
             "role": "Project Lead",
             "url": "https://eeveeexpo.com/threads/8168",
             "category": "Game Projects",
-            "position": 2,
+            "position": 3,
             "thumb_image_url": "/assets/images/portfolios/bloodlines.png",
             "banner_image_url": [
                 "/assets/images/gallery/bloodlines1.gif",
@@ -83,7 +120,7 @@
             "role": "Project Lead",
             "url": "https://imruru.itch.io/a-star-in-the-desert",
             "category": "Game Projects",
-            "position": 3,
+            "position": 1,
             "thumb_image_url": "/assets/images/portfolios/stars.png",
             "banner_image_url": [
                 "/assets/images/gallery/star1.gif",
@@ -114,13 +151,13 @@
             "id": 3,
             "name": "Eevee Expo",
             "description": "Eevee Expo is an indie games website dedicated to showcasing thousands of indie games, fanworks, and other creative endeavors. Page in progress!",
-            "information":"Test",
+            "information":"Coming soon!",
             "platform": "N/A",
             "devtime": "On-going!",
             "role": "Project Lead",
             "url": "https://eeveeexpo.com/",
             "category": "Other",
-            "position": 3,
+            "position": 4,
             "thumb_image_url": "/assets/images/portfolios/expo.png",
             "banner_image_url": [
                 "/assets/images/gallery/expo.gif",
