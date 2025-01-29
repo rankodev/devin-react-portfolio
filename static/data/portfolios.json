@@ -1,6 +1,40 @@
 {
     "portfolio_items": [
         {
+            "id": 3,
+            "name": "Eevee Expo",
+            "description": "Eevee Expo is an indie games website dedicated to showcasing thousands of indie games, fanworks, and other creative endeavors. Eevee Expo has a current traffic of 1500 unique visitors per day and has social media plugs at X, BlueSky, and YouTube! Check us out in the host link!",
+            "information":"Coming soon!",
+            "platform": "N/A",
+            "devtime": "On-going!",
+            "role": "Project Lead",
+            "url": "https://eeveeexpo.com/",
+            "category": "Other",
+            "position": 4,
+            "thumb_image_url": "/assets/images/portfolios/expo.png",
+            "banner_image_url": [
+                "/assets/images/gallery/expo.gif",
+                "/assets/images/gallery/expo2.png",
+                "/assets/images/gallery/expo3.png"
+            ],
+            "logo_url": null,
+            "column_names_merged_with_images": [
+                "id",
+                "name",
+                "description",
+                "information",
+                "platform",
+                "devtime",
+                "role",
+                "url",
+                "category",
+                "position",
+                "thumb_image",
+                "banner_image",
+                "logo"
+            ]
+        },
+        {
             "id": 5,
             "name": "Maplemon",
             "description": "Maplemon is a monster-catching/platformer hybrid RPG created for MapleJam 2024 ($10,000 prize pool). The Hackathon required the use of the Maplestory Worlds platform, and Maplestory assets were provided. This game project features prominently the ability to catch, battle, and explore with iconic monsters from Maplestory. \r\n\r\nYou play as a Maplestory player that has fallen from the surface world, and are told that the monsters in this New World cannot be harmed with your traditional weapons. You must ally yourselves with the monsters in order to survive. <br/><br/><strong>Winner for MapleJam 2024!</strong><br/><br/><span style=\"font-size: 16px;\"><strong>Responsibilities:</strong></span><br/><br/><ul style=\"margin-top: 0;\"><li>Lead UI/UX Designer</li><li>Framing and building Game Design Documentat and UI Design Page</li><li>Designing core gameplay loop and systems, including flowcharts</li><li>Spritework, tileset organization, art direction, and asset creation/crediting</li><li>Recruitment and task management</li><li>Managing scope, engine limitations, possibilities, and deadlines</li></ul>",
@@ -129,40 +163,6 @@
                 "/assets/images/gallery/star4.gif",
                 "/assets/images/gallery/star5.gif",
                 "/assets/images/gallery/star6.gif"
-            ],
-            "logo_url": null,
-            "column_names_merged_with_images": [
-                "id",
-                "name",
-                "description",
-                "information",
-                "platform",
-                "devtime",
-                "role",
-                "url",
-                "category",
-                "position",
-                "thumb_image",
-                "banner_image",
-                "logo"
-            ]
-        },
-        {
-            "id": 3,
-            "name": "Eevee Expo",
-            "description": "Eevee Expo is an indie games website dedicated to showcasing thousands of indie games, fanworks, and other creative endeavors. Page in progress!",
-            "information":"Coming soon!",
-            "platform": "N/A",
-            "devtime": "On-going!",
-            "role": "Project Lead",
-            "url": "https://eeveeexpo.com/",
-            "category": "Other",
-            "position": 4,
-            "thumb_image_url": "/assets/images/portfolios/expo.png",
-            "banner_image_url": [
-                "/assets/images/gallery/expo.gif",
-                "/assets/images/gallery/expo2.png",
-                "/assets/images/gallery/expo3.png"
             ],
             "logo_url": null,
             "column_names_merged_with_images": [
