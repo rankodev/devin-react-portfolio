@@ -47,7 +47,7 @@ const ContactPage = () => {
               exit={{ opacity: 0, y: -20 }} 
               transition={{ duration: 0.5, delay: 0.5 }}
             >
-              As a studying web developer and competitive gamer, my interests very quickly gravitated towards game design, as I found my heart truly loves to create and provide memorable experiences for others. Since I've started this journey, I've picked up <b>programming, pixel art, game design, QA/balancing, documentation, and deadline management (a LOT of game jams)</b>. I would love to give back to the gaming world the memorable adventures it has given me.
+              As a studying web developer and competitive gamer, my interests very quickly gravitated towards game design and user experience design, as I found my heart truly loves to create and provide memorable experiences for others. Since I've started this journey, I've picked up <b>programming, pixel art, game design, QA/balancing, documentation, and deadline management (a LOT of game jams)</b>. I would love to give back to the gaming world the memorable adventures it has given me.
             </motion.p>
 
             <motion.p
