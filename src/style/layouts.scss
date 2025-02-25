@@ -8,11 +8,13 @@ html, body {
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  height: 100%;
+  min-height: 100vh; /* Ensures it takes at least full viewport height */
+  padding-bottom: 80px;
   background-image: url(/assets/images/portfolios/background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  flex-grow: 1; /* Ensures it expands properly */
 }
 
 .left-column {
@@ -36,6 +38,7 @@ html, body {
   flex-direction: column;
   justify-content: flex-start;
   padding: 50px;
+  flex-grow: 1; /* Allows it to expand as needed */
 }
 
 .extra-notes {
@@ -76,7 +79,7 @@ html, body {
 @media (max-width: 768px) {
   .content-page-wrapper {
     flex-direction: column; /* Stacks columns in a single column layout */
-    height: auto; /* Adjust height when stacked */
+    min-height: auto; /* Adjust height when stacked */
   }
 
   .right-column {
@@ -108,8 +111,9 @@ html, body {
   .content-page-wrapper {
     flex-direction: column; /* Full-width layout on mobile */
     padding: 10px;
+    min-height: auto; /* Allows content to expand */
   }
-
+  
   .right-column {
     padding: 30px; /* Minimal padding on mobile */
   }
