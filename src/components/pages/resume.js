@@ -14,6 +14,7 @@ export default function() {
             
           </div>
           <div className="bio">
+            Email me for inquiries below!
         </div>
         
           <div className="bullet-point-group">

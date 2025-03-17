@@ -73,7 +73,7 @@ const NavigationComponent = (props) => {
           transition={{ duration: 0.5 }}
         >
           <div className="name">Devin "ruru" Lu</div>
-          <div className="title">Media and User Experiences Expert</div>
+          <div className="title">UX Design/Game Design</div>
         </motion.div>
       </div>
 
