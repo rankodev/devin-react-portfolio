@@ -38,7 +38,7 @@ const ContactPage = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               Welcome to my portfolio! I'm Devin "ruru" Lu!<br /><br />
-              I am a 3rd year student at <b>Western Governor's University</b> studying <b>Software Engineering</b> and planning to go into <b>UI/UX</b> afterwards. Not only am I one of the main organizers of <b>the indie game website, Eevee Expo</b>, I'm also a hobbyist game developer looking for opportunities to improve and learn. The elements on this website will go into depth on the projects I've worked on so far, as well as my experience with game development. 
+              I am a graduate of <b>Western Governor's University</b> studying <b>Software Engineering</b> and planning to go into <b>Game Design</b>. Not only am I one of the main organizers of <b>the indie game website, Eevee Expo</b>, I'm also a hobbyist game developer looking for opportunities to improve and learn. The elements on this website will go into depth on the projects I've worked on so far, as well as my experience with game development. 
             </motion.p>
 
             <motion.p
@@ -47,7 +47,7 @@ const ContactPage = () => {
               exit={{ opacity: 0, y: -20 }} 
               transition={{ duration: 0.5, delay: 0.5 }}
             >
-              As a studying web developer and competitive gamer, my interests very quickly gravitated towards game design and user experience design, as I found my heart truly loves to create and provide memorable experiences for others. Since I've started this journey, I've picked up <b>programming, pixel art, game design, QA/balancing, documentation, and deadline management (a LOT of game jams)</b>. I would love to give back to the gaming world the memorable adventures it has given me.
+              As a studying web developer, customer service specialist, and competitive gamer, my interests very quickly gravitated towards game design and user experience design, as I found my heart truly loves to create and provide memorable experiences for others. Since I've started this journey, I've picked up <b>programming, pixel art, game design, QA/balancing, documentation, and deadline management (a LOT of game jams)</b>. I would love to give back to the gaming world the memorable adventures it has given me.
             </motion.p>
 
             <motion.p
@@ -62,7 +62,7 @@ const ContactPage = () => {
             </motion.p>
             <div className="extra-notes">
               <div className="games">
-              {["Ghost Trick", "Stardew Valley", "Final Fantasy Tactics", "Deemo", "Limbus Company", "Teamfight Tactics", "Shin Megami Tensei IV"].map((game, index) => (
+              {["Ghost Trick", "Stardew Valley", "Final Fantasy Tactics", "Deemo", "Limbus Company", "Teamfight Tactics", "Shin Megami Tensei IV, Pokémon"].map((game, index) => (
               <motion.div
                 key={game}
                 initial={{ opacity: 0, y: 20 }}
