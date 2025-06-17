@@ -40,14 +40,14 @@ const FooterComponent = (props) => {
     >
       <div className="footer-links-container">
         <div className="footer-link-wrapper">
-          <NavLink to={{pathname: "https://x.com/rankomon"}} target="_blank" activeClassName="footer-link-active">
+          <NavLink to={{pathname: "https://x.com/eeveeexpo"}} target="_blank" activeClassName="footer-link-active">
             X
           </NavLink>
         </div>
 
         <div className="footer-link-wrapper">
-          <NavLink to={{pathname: "https://bsky.app/profile/rankoruru.eeveeexpo.com"}} target="_blank" activeClassName="footer-link-active">
-            BlueSky
+          <NavLink to={{pathname: "https://www.linkedin.com/in/devin-lu-setiady-b77b9a2b6/"}} target="_blank" activeClassName="footer-link-active">
+            LinkedIn
           </NavLink>
         </div>
 

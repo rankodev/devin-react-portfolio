@@ -14,7 +14,18 @@ export default function() {
             
           </div>
           <div className="bio">
-            Email me for inquiries below!
+<section class="resume-download-section">
+  <h2>My Resume</h2>
+  
+  <div class="resume-preview">
+    <img src="/assets/images/auth/resume.jpg" alt="Resume Preview" class="resume-thumbnail" />
+
+    <a href="/assets/images/auth/resume.pdf" download class="resume-download-button">
+      📄 Download Resume (PDF)
+    </a>
+  </div>
+</section>
+            <h1>Email me for inquiries below!</h1>
         </div>
         
           <div className="bullet-point-group">

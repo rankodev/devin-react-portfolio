@@ -62,7 +62,7 @@ const ContactPage = () => {
             </motion.p>
             <div className="extra-notes">
               <div className="games">
-              {["Ghost Trick", "Stardew Valley", "Final Fantasy Tactics", "Deemo", "Limbus Company", "Teamfight Tactics", "Shin Megami Tensei IV, Pokémon"].map((game, index) => (
+              {["Ghost Trick", "Stardew Valley", "Final Fantasy Tactics", "Deemo", "Limbus Company", "Teamfight Tactics", "Shin Megami Tensei IV", "Pokémon"].map((game, index) => (
               <motion.div
                 key={game}
                 initial={{ opacity: 0, y: 20 }}
