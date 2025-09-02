@@ -37,7 +37,7 @@
                 {
             "id": 6,
             "name": "Halff Coffee Hour",
-            "description": "A website made for HCI's (Half Community Initiative) Coffee Hour event (Main site is https://halff.com/). A small-scale website where orders are taken by employees, processed through a back-end system for management, and fulfilled by volunteers. Built with React.js. Test it out yourself with username: employee, password: WILACBTIIR",
+            "description": "A website made for HCI's Coffee Hour event (Company's main site is https://halff.com/).<br/><br/>A small-scale website where orders are taken by employees, processed through a back-end system for management, and fulfilled by volunteers. Built with React.js. Test it out yourself! <br/><br/>Username: employee <br/><br/>Password: WILACBTIIR",
             "information":"Done for an office initiative to streamline coffee orders for HCI's community day. React.js is used as the framework, employees got through a series of options for their coffee order, limited time slots are available by checking the backend (after 2 people have taken a slot, it's grayed out and can't be chosen), and then orders are sent to a Google form for the manager to view the orders.<br/><br/>Some fun additions to the site include completely custom made coffee images for each of the order buttons.",
             "platform": "N/A",
             "devtime": "On-going!",

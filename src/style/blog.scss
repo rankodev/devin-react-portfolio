@@ -44,13 +44,13 @@
     a {
       font-size: 3em;
       cursor: pointer;
-      color: $teal;
+      color: $dark-teal;
       margin-right: 15px;
       margin-bottom: 15px;
       transition: 0.5s ease-in-out;
 
       &:hover {
-        color: $dark-teal;
+        color: $teal;
       }
     }
   }
@@ -85,11 +85,11 @@
 
     a {
       text-decoration: none;
-      color: $teal;
+      color: $dark-teal;
       transition: 0.5s ease-in-out;
 
       &:hover {
-        color: $dark-teal;
+        color: $teal;
       }
     }
 
