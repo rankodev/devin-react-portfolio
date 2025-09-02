@@ -11,14 +11,14 @@ html, body {
 
 .content-container {
   flex-grow: 1;
-  padding-bottom: 5vh; // Adds space above the footer
+  padding-bottom: 5vh;
 }
 
 .footer-wrapper {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding: 30px;
+  padding: 2.25em;
   background-color: #e1c1ff;
   min-height: 4.5vh;
   position: fixed;
